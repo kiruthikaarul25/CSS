@@ -6,9 +6,6 @@ h1 {
     font-variant: small-caps;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-
-    /* Go to the google font and select the font then get embedded code 
-    select import copy inside the style then copy selected name css  */
     
     font-family: "Playwrite NZ Basic Guides", cursive;
     font-weight: 400;
