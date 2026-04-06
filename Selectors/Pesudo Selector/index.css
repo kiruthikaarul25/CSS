@@ -1,0 +1,24 @@
+@import url(child.css);
+
+
+
+a:visited {
+    color: orange;
+}
+
+a:link {
+    color: crimson;
+}
+
+a:active {
+    color: black;
+}
+input:focus{
+    caret-color: red;
+    
+}
+h1:hover{
+   color: blue;
+   cursor: pointer;
+   
+}
