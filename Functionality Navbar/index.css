@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+}
+#check,#checked{
+    display:none;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.list li{
+    padding: 0 20px;
+
+
+}
+.right{
+    display: flex;
+}
+
+
+@media screen and (max-width:700px){
+    .list{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        background: linear-gradient(rgb(0, 149, 255),rgb(68, 13, 249));
+        height: 300px;
+        width: 100%;
+        left: 99.5%;
+        padding: 2px;
+        transition:  all 1s;
+ 
+    }
+ 
+    #checked{
+        display: block;
+        font-size: 30px;
+    }
+    #check:checked ~ .list{
+        left:80%;
+ 
+    }
+}
