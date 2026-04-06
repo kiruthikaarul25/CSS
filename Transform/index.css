@@ -6,15 +6,15 @@ div{
   
 }
 
-/* div:hover{
-    transform: rotate(45deg);      /*rotate the div
-} */
-/* div:hover{
-    transform: scale(2.5);         /*increase or decrease the div
-} */
-/* div:hover{
-    transform: skew(30deg);       /*change angle
-} */
 div:hover{
-    transform: translate(30px,100px);     /*move x and y direction first 30px-x , next 30px-y*/
+    transform: rotate(45deg);      
+} 
+ div:hover{
+    transform: scale(2.5);         
+} 
+ div:hover{
+    transform: skew(30deg);      
+}
+div:hover{
+    transform: translate(30px,100px);     
 }
