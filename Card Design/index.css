@@ -3,15 +3,12 @@
     width: 300px;
     border: 2px solid red;
     overflow: hidden;
-    /*adjust within the div*/
 }
 
 .card>img {
     height: 100%;
     width: 100%;
-    /*Both are adjust in within div cover 100%*/
     object-fit: cover;
-    /*correct size*/
 }
 
 img:hover {
@@ -19,12 +16,11 @@ img:hover {
     transform: scale(1.5);
     transition: all 1s;
     filter: grayscale(100%);
-    /*for color change*/
 }
 
 .bio {
     position: absolute;
-    opacity: 0.0;/*for word blending*/
+    opacity: 0.0;
     top: 250px;
     left: 200px;
 
