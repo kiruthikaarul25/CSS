@@ -1,0 +1,25 @@
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+footer div{
+
+    height: 300px;
+    width: 300px;
+
+}
+#i,#iii{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ii{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
