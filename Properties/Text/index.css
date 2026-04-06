@@ -1,0 +1,23 @@
+h1{
+    color: rgb(23, 159, 159);
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase; 
+    
+}
+p{
+    text-align: justify;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+input{
+    text-overflow: ellipsis;
+}
+div{
+    border: 1px solid black;
+    width: 300px;
+    word-wrap: break-word;
+}
