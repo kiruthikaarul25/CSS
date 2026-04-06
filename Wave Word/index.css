@@ -1,0 +1,25 @@
+section{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,black);
+}
+span{
+    display: inline-block;
+    animation: word 1s infinite; 
+    animation-delay: calc(var(--i) * 0.1s);
+}
+@keyframes word {
+
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+}
