@@ -1,0 +1,19 @@
+
+p::after{
+   content:"😊";
+     /* window plus dot(window + .) for emoji */
+}
+p::before{
+    content: "🙌";
+}
+p::first-letter{
+    font-size: 100px;
+    font-family: "italy";
+}
+p::first-line{
+    color: rgb(11, 238, 125);
+}
+li::marker{
+    color: blueviolet;
+}
+
