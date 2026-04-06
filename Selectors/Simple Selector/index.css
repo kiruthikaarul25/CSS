@@ -1,0 +1,23 @@
+.new {
+    color: orange;
+    background-color: black;
+}
+
+#pid {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+}
+
+.new,#pid,h1 {
+    font-style: italic;
+    text-align: center;
+
+}
+
+* {
+    background-color: grey;
+}
