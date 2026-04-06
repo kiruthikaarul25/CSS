@@ -1,0 +1,20 @@
+section{
+    background: black;
+    height: 100vh;             /* % for cover all height until we work*/ 
+    width: 100%;
+    display:flex;             /* adjust aromaticaly in any screen */
+    flex-wrap: wrap;          /* occupy extra white space */ 
+    gap: 10px;                /*gap between boxes*/
+    justify-content: center;  /* space-around,space-between,center,space-evenly */
+    align-items: center;      /* space-around,space-between,center,space-evenly*/
+    flex-direction: row;      /*row,column,row-reverse,column-reverse*/
+    
+    
+}
+div{
+    background: red;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+   
+    }
